@@ -2,19 +2,18 @@
    
     
       
-        /* Contact Section */
-        .contact {
+        .contato {
             padding: 6rem 2rem;
             background-color: var(--primary-color);
             color: var(--primary-color);
             text-align: center;
         }
         
-        .contact .section-title {
-            color: var(--primary-color);
+        .contato .titulo {
+            color: var(--text-color);
         }
         
-        .contact-form {
+        .contato-form {
             max-width: 600px;
             margin: 0 auto;
             text-align: left;
@@ -33,6 +32,7 @@
             color: var(--primary-color);
             font-family: var(--font-main);
             font-size: 1rem;
+            color: #fff;
             transition: background-color 0.3s;
         }
         

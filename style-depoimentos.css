@@ -1,63 +1,30 @@
 @import url('./styles.css');   
-   
- 
-        
-        /* Testimonials Section */
-        .testimonials {
+          
+        .solucoes {
             padding: 6rem 2rem;
             text-align: center;
             max-width: 1200px;
             margin: 0 auto;
         }
         
-        .testimonials-container {
-            display: flex;
-            overflow-x: hidden;
-            position: relative;
+
+        .solucoes table{
             max-width: 900px;
             margin: 0 auto;
+            background-color: #686b6b44;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-collapse: collapse;
+        }
 
+        .solucoes table thead {
+            background-color: #1f2937;
+            color: #ffffff;
+            text-align: left;
         }
         
-        .testimonial {
-            flex: 0 0 100%;
-            padding: 2rem;
-            text-align: center;
+        .solucoes table th, .solucoes table td {
+            padding: 16px 20px;
         }
-        
-        .testimonial-text {
-            font-size: 1.2rem;
-            font-style: italic;
-            margin-bottom: 2rem;
-            line-height: 1.8;
-        }
-        
-        .testimonial-author {
-            font-weight: 600;
-            color: var(--primary-color);
-
-        }
-        
-        .testimonial-position {
-            font-size: 0.9rem;
-            color: #777;
-        }
-        
-        .testimonial-controls {
-            margin-top: 2rem;
-        }
-        
-        .testimonial-btn {
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            margin: 0 0.5rem;
-            color: var(--primary-color);
-            opacity: 0.5;
-            transition: opacity 0.3s;
-        }
-        
-        .testimonial-btn:hover {
-            opacity: 1;
-        }
+   
