@@ -1,0 +1,32 @@
+        :root {
+            --primary-color: #0A0F1B;
+            --secondary-color: #000;
+            --accent-color: #00CFFF;
+            --text-color: #f9f9f9;
+            --text-color-titulo: #00CFFF;
+            --background-color: #0A0F1B;
+            --font-main: 'Helvetica Neue', Arial, sans-serif;
+            --roxo-escuro: #4B0082;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--font-main);
+            color: var(--text-color);
+            background-color: var(--background-color);
+            line-height: 1.6;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+   
+ 
+  
